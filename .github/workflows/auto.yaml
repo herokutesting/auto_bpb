@@ -2,7 +2,7 @@ name: Update and Obfuscate Worker
 
 on:
   schedule:
-    - cron: '0 4 * * 1'   # Runs at 04:00, only on Monday
+    - cron: '0 4 * * *'   # Runs at 04:00
   workflow_dispatch:      # 允许手动触发
 
 permissions:
